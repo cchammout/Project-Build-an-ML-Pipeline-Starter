@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chadiac/Project-Build-an-ML-Pipeline-Starter/mlruns/0/60662d3c78c448dea5a79d928eabcc19/artifacts
+end_time: 1709600493008
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60662d3c78c448dea5a79d928eabcc19
+run_name: traveling-ant-135
+run_uuid: 60662d3c78c448dea5a79d928eabcc19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709600481183
+status: 3
+tags: []
+user_id: chadiac
