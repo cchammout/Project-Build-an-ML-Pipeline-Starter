@@ -1,0 +1,120 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-03-04T00:13:31.249812",
+    "startedAt": "2024-03-04T00:13:30.673486",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "nyc_airbnb/trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "/home/chadiac/Project-Build-an-ML-Pipeline-Starter/multirun/2024-03-03/18-11-02/3/rf_config.json",
+        "--max_tfidf_features",
+        "5",
+        "--output_artifact",
+        "random_forest_export"
+    ],
+    "state": "running",
+    "program": "/home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py",
+    "codePath": "src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/cchammout/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98"
+    },
+    "email": null,
+    "root": "/home/chadiac/Project-Build-an-ML-Pipeline-Starter",
+    "host": "DESKTOP-HOAA51R",
+    "username": "chadiac",
+    "executable": "/home/chadiac/anaconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3593.269999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 25.501880645751953
+    },
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.596820831298828
+    }
+}

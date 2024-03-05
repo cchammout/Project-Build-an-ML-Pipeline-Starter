@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chadiac/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d06081c778ec4a3ba3e768886bbab2a6/artifacts
+end_time: 1709511156398
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d06081c778ec4a3ba3e768886bbab2a6
+run_name: masked-dog-304
+run_uuid: d06081c778ec4a3ba3e768886bbab2a6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709511106254
+status: 3
+tags: []
+user_id: chadiac

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chadiac/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cd7da959fd8148b398e3813cb0813c1a/artifacts
+end_time: 1709507002535
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cd7da959fd8148b398e3813cb0813c1a
+run_name: loud-stoat-632
+run_uuid: cd7da959fd8148b398e3813cb0813c1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709506922813
+status: 3
+tags: []
+user_id: chadiac

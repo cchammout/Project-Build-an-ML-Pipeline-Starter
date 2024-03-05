@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chadiac/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1710a896cdf14c0cb5b9bbea2eed53d9/artifacts
+end_time: 1709513728267
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1710a896cdf14c0cb5b9bbea2eed53d9
+run_name: dapper-grub-107
+run_uuid: 1710a896cdf14c0cb5b9bbea2eed53d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709513655547
+status: 3
+tags: []
+user_id: chadiac

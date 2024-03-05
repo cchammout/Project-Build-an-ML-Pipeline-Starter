@@ -1,0 +1,104 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.15",
+    "heartbeatAt": "2024-03-03T03:25:17.229861",
+    "startedAt": "2024-03-03T03:25:09.526134",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "src/eda/eda.ipynb",
+    "root": "/home/chadiac/Project-Build-an-ML-Pipeline-Starter",
+    "git": {
+        "remote": "https://github.com/cchammout/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98"
+    },
+    "email": null,
+    "host": "DESKTOP-HOAA51R",
+    "username": "chadiac",
+    "executable": "/home/chadiac/anaconda3/envs/nyc_airbnb_dev/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3593.269999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3593.27,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 23.2947998046875
+    },
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.596820831298828
+    }
+}

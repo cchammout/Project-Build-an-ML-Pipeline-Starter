@@ -1,0 +1,223 @@
+2024-03-02 21:25:16,715 INFO    StreamThr :11298 [internal.py:wandb_internal():87] W&B internal server running at pid: 11298, started at: 2024-03-02 21:25:16.715024
+2024-03-02 21:25:16,717 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status
+2024-03-02 21:25:16,718 INFO    WriterThread:11298 [datastore.py:open_for_write():85] open: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/run-ryueaomw.wandb
+2024-03-02 21:25:16,718 DEBUG   SenderThread:11298 [sender.py:send():334] send: header
+2024-03-02 21:25:16,719 DEBUG   SenderThread:11298 [sender.py:send():334] send: run
+2024-03-02 21:25:17,092 INFO    SenderThread:11298 [dir_watcher.py:__init__():216] watching files in: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files
+2024-03-02 21:25:17,092 INFO    SenderThread:11298 [sender.py:_start_run_threads():1065] run started: ryueaomw with start time 1709436315.72236
+2024-03-02 21:25:17,092 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: summary_record
+2024-03-02 21:25:17,092 INFO    SenderThread:11298 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-02 21:25:17,094 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: check_version
+2024-03-02 21:25:17,094 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: check_version
+2024-03-02 21:25:17,220 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: run_start
+2024-03-02 21:25:17,221 DEBUG   HandlerThread:11298 [system_info.py:__init__():31] System info init
+2024-03-02 21:25:17,221 DEBUG   HandlerThread:11298 [system_info.py:__init__():46] System info init done
+2024-03-02 21:25:17,221 INFO    HandlerThread:11298 [system_monitor.py:start():151] Starting system monitor
+2024-03-02 21:25:17,221 INFO    SystemMonitor:11298 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-03-02 21:25:17,222 INFO    HandlerThread:11298 [system_monitor.py:probe():172] Collecting system info
+2024-03-02 21:25:17,222 INFO    SystemMonitor:11298 [interfaces.py:start():168] Started cpu
+2024-03-02 21:25:17,222 INFO    SystemMonitor:11298 [interfaces.py:start():168] Started disk
+2024-03-02 21:25:17,223 INFO    SystemMonitor:11298 [interfaces.py:start():168] Started gpu
+2024-03-02 21:25:17,224 INFO    SystemMonitor:11298 [interfaces.py:start():168] Started memory
+2024-03-02 21:25:17,226 INFO    SystemMonitor:11298 [interfaces.py:start():168] Started network
+2024-03-02 21:25:17,229 DEBUG   HandlerThread:11298 [system_info.py:probe():195] Probing system
+2024-03-02 21:25:17,230 DEBUG   HandlerThread:11298 [system_info.py:_probe_git():180] Probing git
+2024-03-02 21:25:17,237 DEBUG   HandlerThread:11298 [system_info.py:_probe_git():188] Probing git done
+2024-03-02 21:25:17,238 DEBUG   HandlerThread:11298 [system_info.py:probe():241] Probing system done
+2024-03-02 21:25:17,238 DEBUG   HandlerThread:11298 [system_monitor.py:probe():181] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.15', 'heartbeatAt': '2024-03-03T03:25:17.229861', 'startedAt': '2024-03-03T03:25:09.526134', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'src/eda/eda.ipynb', 'root': '/home/chadiac/Project-Build-an-ML-Pipeline-Starter', 'git': {'remote': 'https://github.com/cchammout/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': None, 'host': 'DESKTOP-HOAA51R', 'username': 'chadiac', 'executable': '/home/chadiac/anaconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3593.269999999999, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3593.27, 'min': 0.0, 'max': 0.0}, {'current': 3593.27, 'min': 0.0, 'max': 0.0}, {'current': 3593.27, 'min': 0.0, 'max': 0.0}, {'current': 3593.27, 'min': 0.0, 'max': 0.0}, {'current': 3593.27, 'min': 0.0, 'max': 0.0}, {'current': 3593.27, 'min': 0.0, 'max': 0.0}, {'current': 3593.27, 'min': 0.0, 'max': 0.0}, {'current': 3593.27, 'min': 0.0, 'max': 0.0}, {'current': 3593.27, 'min': 0.0, 'max': 0.0}, {'current': 3593.27, 'min': 0.0, 'max': 0.0}, {'current': 3593.27, 'min': 0.0, 'max': 0.0}, {'current': 3593.27, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 23.2947998046875}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6442450944}], 'memory': {'total': 15.596820831298828}}
+2024-03-02 21:25:17,238 INFO    HandlerThread:11298 [system_monitor.py:probe():182] Finished collecting system info
+2024-03-02 21:25:17,238 INFO    HandlerThread:11298 [system_monitor.py:probe():185] Publishing system info
+2024-03-02 21:25:17,238 DEBUG   HandlerThread:11298 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-03-02 21:25:17,238 DEBUG   HandlerThread:11298 [system_info.py:_save_pip():67] Saving pip packages done
+2024-03-02 21:25:17,238 DEBUG   HandlerThread:11298 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-03-02 21:25:18,094 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/requirements.txt
+2024-03-02 21:25:18,094 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/wandb-summary.json
+2024-03-02 21:25:18,094 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/conda-environment.yaml
+2024-03-02 21:25:20,095 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/conda-environment.yaml
+2024-03-02 21:25:20,164 DEBUG   HandlerThread:11298 [system_info.py:_save_conda():86] Saving conda packages done
+2024-03-02 21:25:20,164 DEBUG   HandlerThread:11298 [system_info.py:_save_code():89] Saving code
+2024-03-02 21:25:20,164 WARNING HandlerThread:11298 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2024-03-02 21:25:20,164 DEBUG   HandlerThread:11298 [system_info.py:_save_patches():127] Saving git patches
+2024-03-02 21:25:20,282 DEBUG   HandlerThread:11298 [system_info.py:_save_patches():169] Saving git patches done
+2024-03-02 21:25:20,283 INFO    HandlerThread:11298 [system_monitor.py:probe():187] Finished publishing system info
+2024-03-02 21:25:20,284 DEBUG   SenderThread:11298 [sender.py:send():334] send: files
+2024-03-02 21:25:20,284 INFO    SenderThread:11298 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-03-02 21:25:20,284 INFO    SenderThread:11298 [sender.py:_save_file():1319] saving file diff.patch with policy now
+2024-03-02 21:25:20,297 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-02 21:25:20,297 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: stop_status
+2024-03-02 21:25:20,533 DEBUG   SenderThread:11298 [sender.py:send():334] send: telemetry
+2024-03-02 21:25:20,750 INFO    Thread-35 :11298 [upload_job.py:push():143] Uploaded file /tmp/tmph9b9sfvawandb/sm505igj-wandb-metadata.json
+2024-03-02 21:25:20,807 INFO    Thread-36 :11298 [upload_job.py:push():143] Uploaded file /tmp/tmph9b9sfvawandb/mcbi48pw-diff.patch
+2024-03-02 21:25:20,841 DEBUG   SenderThread:11298 [sender.py:send():334] send: use_artifact
+2024-03-02 21:25:21,095 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/diff.patch
+2024-03-02 21:25:21,095 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/wandb-metadata.json
+2024-03-02 21:25:21,841 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:25:26,842 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:25:31,843 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:25:35,297 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:25:36,843 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:25:40,298 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:25:41,844 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:25:45,299 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:25:46,849 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:25:47,103 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/config.yaml
+2024-03-02 21:25:50,300 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:25:52,041 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:25:55,300 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:25:57,042 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:00,301 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:26:02,043 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:05,302 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:26:07,044 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:10,303 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:26:12,045 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:15,304 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:26:17,046 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:17,226 DEBUG   SystemMonitor:11298 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-03-02 21:26:17,227 DEBUG   SenderThread:11298 [sender.py:send():334] send: stats
+2024-03-02 21:26:20,113 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/output.log
+2024-03-02 21:26:20,305 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:26:22,114 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/output.log
+2024-03-02 21:26:22,341 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:25,306 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:26:27,342 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:30,308 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:26:32,343 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:35,309 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:26:37,343 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:40,310 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:26:42,345 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:45,310 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:26:47,228 DEBUG   SenderThread:11298 [sender.py:send():334] send: stats
+2024-03-02 21:26:48,229 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:50,122 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/output.log
+2024-03-02 21:26:50,311 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-02 21:26:52,206 DEBUG   SenderThread:11298 [sender.py:send():334] send: telemetry
+2024-03-02 21:26:52,209 DEBUG   SenderThread:11298 [sender.py:send():334] send: exit
+2024-03-02 21:26:52,209 INFO    SenderThread:11298 [sender.py:send_exit():557] handling exit code: 0
+2024-03-02 21:26:52,209 INFO    SenderThread:11298 [sender.py:send_exit():559] handling runtime: 94
+2024-03-02 21:26:52,209 INFO    SenderThread:11298 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-02 21:26:52,209 INFO    SenderThread:11298 [sender.py:send_exit():565] send defer
+2024-03-02 21:26:52,209 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:52,209 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 0
+2024-03-02 21:26:52,210 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:52,210 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-03-02 21:26:52,210 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 1
+2024-03-02 21:26:52,210 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:52,210 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 1
+2024-03-02 21:26:52,210 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:52,210 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-03-02 21:26:52,210 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 2
+2024-03-02 21:26:52,210 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:52,211 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 2
+2024-03-02 21:26:52,211 INFO    HandlerThread:11298 [system_monitor.py:finish():161] Stopping system monitor
+2024-03-02 21:26:52,212 DEBUG   SystemMonitor:11298 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-03-02 21:26:52,212 DEBUG   SystemMonitor:11298 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-03-02 21:26:52,213 INFO    HandlerThread:11298 [interfaces.py:finish():175] Joined cpu
+2024-03-02 21:26:52,214 INFO    HandlerThread:11298 [interfaces.py:finish():175] Joined disk
+2024-03-02 21:26:52,224 INFO    HandlerThread:11298 [interfaces.py:finish():175] Joined gpu
+2024-03-02 21:26:52,224 INFO    HandlerThread:11298 [interfaces.py:finish():175] Joined memory
+2024-03-02 21:26:52,224 INFO    HandlerThread:11298 [interfaces.py:finish():175] Joined network
+2024-03-02 21:26:52,225 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:52,225 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-03-02 21:26:52,225 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 3
+2024-03-02 21:26:52,225 DEBUG   SenderThread:11298 [sender.py:send():334] send: stats
+2024-03-02 21:26:52,225 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:52,225 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 3
+2024-03-02 21:26:52,226 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:52,226 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-03-02 21:26:52,226 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 4
+2024-03-02 21:26:52,226 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:52,226 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 4
+2024-03-02 21:26:52,226 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:52,226 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-03-02 21:26:52,226 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 5
+2024-03-02 21:26:52,226 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:52,227 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 5
+2024-03-02 21:26:52,227 DEBUG   SenderThread:11298 [sender.py:send():334] send: summary
+2024-03-02 21:26:52,227 INFO    SenderThread:11298 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-02 21:26:52,227 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:52,227 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-03-02 21:26:52,227 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 6
+2024-03-02 21:26:52,228 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:52,228 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 6
+2024-03-02 21:26:52,228 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:52,228 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-03-02 21:26:52,231 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: status_report
+2024-03-02 21:26:52,456 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 7
+2024-03-02 21:26:52,457 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:52,457 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 7
+2024-03-02 21:26:52,457 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:52,457 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-03-02 21:26:53,123 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/wandb-summary.json
+2024-03-02 21:26:53,123 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/config.yaml
+2024-03-02 21:26:53,210 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-02 21:26:53,379 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 8
+2024-03-02 21:26:53,380 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: poll_exit
+2024-03-02 21:26:53,380 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:53,380 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 8
+2024-03-02 21:26:53,380 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:53,380 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-03-02 21:26:53,381 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 9
+2024-03-02 21:26:53,381 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:53,381 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 9
+2024-03-02 21:26:53,381 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:53,381 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-03-02 21:26:53,381 INFO    SenderThread:11298 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-03-02 21:26:54,123 INFO    Thread-32 :11298 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/output.log
+2024-03-02 21:26:54,124 INFO    SenderThread:11298 [dir_watcher.py:finish():392] scan: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files
+2024-03-02 21:26:54,124 INFO    SenderThread:11298 [dir_watcher.py:finish():406] scan save: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/diff.patch diff.patch
+2024-03-02 21:26:54,124 INFO    SenderThread:11298 [dir_watcher.py:finish():406] scan save: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/requirements.txt requirements.txt
+2024-03-02 21:26:54,124 INFO    SenderThread:11298 [dir_watcher.py:finish():406] scan save: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/wandb-metadata.json wandb-metadata.json
+2024-03-02 21:26:54,124 INFO    SenderThread:11298 [dir_watcher.py:finish():406] scan save: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/config.yaml config.yaml
+2024-03-02 21:26:54,124 INFO    SenderThread:11298 [dir_watcher.py:finish():406] scan save: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/conda-environment.yaml conda-environment.yaml
+2024-03-02 21:26:54,126 INFO    SenderThread:11298 [dir_watcher.py:finish():406] scan save: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/output.log output.log
+2024-03-02 21:26:54,127 INFO    SenderThread:11298 [dir_watcher.py:finish():406] scan save: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/wandb-summary.json wandb-summary.json
+2024-03-02 21:26:54,129 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 10
+2024-03-02 21:26:54,129 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:54,132 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 10
+2024-03-02 21:26:54,134 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:54,134 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-03-02 21:26:54,134 INFO    SenderThread:11298 [file_pusher.py:finish():160] shutting down file pusher
+2024-03-02 21:26:54,211 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-02 21:26:54,211 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: poll_exit
+2024-03-02 21:26:54,576 INFO    Thread-40 :11298 [upload_job.py:push():143] Uploaded file /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/output.log
+2024-03-02 21:26:54,645 INFO    Thread-39 :11298 [upload_job.py:push():143] Uploaded file /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/conda-environment.yaml
+2024-03-02 21:26:54,646 INFO    Thread-41 :11298 [upload_job.py:push():143] Uploaded file /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/wandb-summary.json
+2024-03-02 21:26:54,647 INFO    Thread-37 :11298 [upload_job.py:push():143] Uploaded file /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/requirements.txt
+2024-03-02 21:26:54,648 INFO    Thread-38 :11298 [upload_job.py:push():143] Uploaded file /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/files/config.yaml
+2024-03-02 21:26:54,849 INFO    Thread-31 :11298 [sender.py:transition_state():585] send defer: 11
+2024-03-02 21:26:54,850 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:54,850 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 11
+2024-03-02 21:26:54,850 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:54,850 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-03-02 21:26:54,850 INFO    SenderThread:11298 [file_pusher.py:join():165] waiting for file pusher
+2024-03-02 21:26:54,850 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 12
+2024-03-02 21:26:54,850 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:54,850 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 12
+2024-03-02 21:26:54,850 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:54,850 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-03-02 21:26:55,060 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 13
+2024-03-02 21:26:55,060 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:55,060 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 13
+2024-03-02 21:26:55,060 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:55,060 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-03-02 21:26:55,060 INFO    SenderThread:11298 [sender.py:transition_state():585] send defer: 14
+2024-03-02 21:26:55,060 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: defer
+2024-03-02 21:26:55,061 INFO    HandlerThread:11298 [handler.py:handle_request_defer():170] handle defer: 14
+2024-03-02 21:26:55,061 DEBUG   SenderThread:11298 [sender.py:send():334] send: final
+2024-03-02 21:26:55,061 DEBUG   SenderThread:11298 [sender.py:send():334] send: footer
+2024-03-02 21:26:55,061 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: defer
+2024-03-02 21:26:55,061 INFO    SenderThread:11298 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-03-02 21:26:55,062 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-02 21:26:55,062 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: poll_exit
+2024-03-02 21:26:55,063 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: server_info
+2024-03-02 21:26:55,063 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: get_summary
+2024-03-02 21:26:55,063 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: sampled_history
+2024-03-02 21:26:55,063 DEBUG   SenderThread:11298 [sender.py:send_request():361] send_request: server_info
+2024-03-02 21:26:55,353 DEBUG   HandlerThread:11298 [handler.py:handle_request():144] handle_request: shutdown
+2024-03-02 21:26:55,353 INFO    HandlerThread:11298 [handler.py:finish():841] shutting down handler
+2024-03-02 21:26:56,063 INFO    WriterThread:11298 [datastore.py:close():299] close: /home/chadiac/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240302_212509-ryueaomw/run-ryueaomw.wandb
+2024-03-02 21:26:56,353 INFO    SenderThread:11298 [sender.py:finish():1491] shutting down sender
+2024-03-02 21:26:56,353 INFO    SenderThread:11298 [file_pusher.py:finish():160] shutting down file pusher
+2024-03-02 21:26:56,353 INFO    SenderThread:11298 [file_pusher.py:join():165] waiting for file pusher

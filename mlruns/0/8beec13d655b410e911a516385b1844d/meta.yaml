@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chadiac/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8beec13d655b410e911a516385b1844d/artifacts
+end_time: 1709511207294
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8beec13d655b410e911a516385b1844d
+run_name: righteous-boar-408
+run_uuid: 8beec13d655b410e911a516385b1844d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709511156532
+status: 3
+tags: []
+user_id: chadiac

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chadiac/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ace7f6676c3743498563ae7e213b36fd/artifacts
+end_time: 1709506281251
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ace7f6676c3743498563ae7e213b36fd
+run_name: spiffy-bug-699
+run_uuid: ace7f6676c3743498563ae7e213b36fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709506233310
+status: 3
+tags: []
+user_id: chadiac

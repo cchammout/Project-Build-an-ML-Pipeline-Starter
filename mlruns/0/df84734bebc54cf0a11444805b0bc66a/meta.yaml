@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chadiac/Project-Build-an-ML-Pipeline-Starter/mlruns/0/df84734bebc54cf0a11444805b0bc66a/artifacts
+end_time: 1709509410356
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: df84734bebc54cf0a11444805b0bc66a
+run_name: capable-cat-141
+run_uuid: df84734bebc54cf0a11444805b0bc66a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709509308991
+status: 4
+tags: []
+user_id: chadiac

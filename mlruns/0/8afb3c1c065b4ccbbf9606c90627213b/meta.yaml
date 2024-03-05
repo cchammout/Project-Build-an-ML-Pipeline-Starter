@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chadiac/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8afb3c1c065b4ccbbf9606c90627213b/artifacts
+end_time: 1709510504358
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8afb3c1c065b4ccbbf9606c90627213b
+run_name: painted-elk-287
+run_uuid: 8afb3c1c065b4ccbbf9606c90627213b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709510503383
+status: 4
+tags: []
+user_id: chadiac

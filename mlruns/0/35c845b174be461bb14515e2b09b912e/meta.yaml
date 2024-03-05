@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chadiac/Project-Build-an-ML-Pipeline-Starter/mlruns/0/35c845b174be461bb14515e2b09b912e/artifacts
+end_time: 1709512541423
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 35c845b174be461bb14515e2b09b912e
+run_name: nebulous-elk-664
+run_uuid: 35c845b174be461bb14515e2b09b912e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709512539495
+status: 3
+tags: []
+user_id: chadiac
