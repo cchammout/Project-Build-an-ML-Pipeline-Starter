@@ -4,7 +4,9 @@ time on various rental platforms. You need to estimate the typical price for a g
 on the price of similar properties. Your company receives new data in bulk every week. The model needs 
 to be retrained with the same cadence, necessitating an end-to-end pipeline that can be reused.
 
-In this project you will build such a pipeline.
+In this project you will build such a pipeline. 
+W&B link: https://wandb.ai/chammout/nyc_airbnb
+Repository link: https://github.com/cchammout/Project-Build-an-ML-Pipeline-Starter
 
 ## Table of contents
 
